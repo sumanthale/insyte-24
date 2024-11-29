@@ -46,6 +46,7 @@ export function UserTableRow({ row, selected, onSelectRow }: UserTableRowProps) 
   return (
     <>
       <TableRow hover tabIndex={-1} role="checkbox" selected={selected}>
+      <TableCell align='center'>{row.id}</TableCell>
        
 
         <TableCell component="th" scope="row">
